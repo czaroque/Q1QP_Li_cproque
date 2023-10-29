@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500&family=DM+Sans:opsz,wght@9..40,200&display=swap');
+*{
+    padding: 0px; 
+    margin: 0px;
+}
+.sidebar{  /*This is for the sidebar*/    
+    height: 65vh;
+    width: 6vw;
+    background-color: #555358;
+    border-radius: 25px;
+    top: 50%;
+    right: 2vw;
+    transform: translateY(-50%);
+    position: fixed;
+}
+.logo img{ /*This is for the logo in the sidebar*/
+    border-radius: 50%;
+    margin-left: 1.4vw;
+    margin-top: 1vh;
+}
+.home{ /*This is for the home icon in the sidebar*/
+margin-left: 1vw;
+}
+.studybg img{ /*This is for the book icon in the sidebar*/
+margin-left: 0.6vw;
+}
+.quali{ /*This is for the people icon in the sidebar*/
+margin-left: 1vw;
+}
+.quanti{ /*This is for the graph icon in the sidebar*/
+margin-left: 1vw;
+}
+.conc{ /*This is for the text icon in the sidebar*/
+margin-left: 1vw;
+}
+.aboutme{ /*This is for the id icon in the sidebar*/
+    margin-left: 1vw;
+}
+.green{ /*This is to color a part of the title in the index.html*/
+    color: #C6CA53;
+}
+.gray{ /*This is to color a part of the title in the index.html*/
+    color: #5F6062;
+}
+.footer{ /*This is for the footer*/
+    background-color: #555358;
+    height: 8vh;
+    width: 15vw;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    bottom: 0;
+    position: fixed;
+}
+.footer a{ /*This is for the links in the footer*/
+    display: inline;
+}
+.copyright{ /*This is for the copyright of the first page*/
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 58vh;
+    font-size: small;
+    float: right;
+}
+.titleb{ /*This is for the title of the first page*/
+    font-family: 'Archivo', sans-serif;
+    font-size: large;
+    margin-left: 10vw;
+    margin-top: 10vw;
+}
+.textb{ /*This is for the text in the first page*/
+   font-family:'DM Sans', sans-serif;
+   margin-left: 10vw;
+   margin-top: 5vw;
+   font-size: medium;
+   position: fixed;
+}
+
+.titlec{ /*This is for the title of the second page*/
+    font-family: 'Archivo', sans-serif;
+    font-size: large;
+    margin-left: 10vw;
+    margin-top: 10vw;
+    color: #555358;
+}
+.textc{ /*This is for the text of the second page*/
+   font-family:'DM Sans', sans-serif;
+   margin-left: 10vw;
+   margin-top: 5vw;
+   font-size: medium;
+   position: fixed;
+   background-color: #C9DCB3;
+   border-radius: 25px;
+   height: 38vh;
+   position: fixed;
+   padding: 1.5vw;
+}
+.copyright2{ /* This is for the copyright of the second page*/
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 13vh;
+    font-size: small;
+    float: right;}
+.bodypicc{ /* This is for the photo near the text in the second page*/
+  margin-left: 60vw;  
+  margin-top: 10vh;
+}
+.titled{ /*This is for the title of the 3rd page*/
+    font-family: 'Archivo', sans-serif;
+    font-size: large;
+    margin-left: 35vw;
+    margin-top: 5vw;
+    color: #5F6062 ;   
+}
+.picdfirst{ /*This is for the first set of photos in the 3rd page*/
+margin: 10vh;
+}
+.picdsecond{ /*This is for the second set of photos in the 3rd page*/
+margin: 10vh;
+}
+.copyright3{ /*This is for the copyright in the 3rd page*/
+    font-family: 'DM Sans', sans-serif;
+       margin-top: 3vh;
+       font-size: small;
+       float: right;   }
+
+.picefirst{ /*This is for the first set of photos in the 4th, 41, and 42 pages*/
+margin-top: 10vh;
+margin-left: 18vh;
+}
+.titlee{ /*This is for the title of the 4th, 41, and 41 pages*/
+    font-family: 'Archivo', sans-serif;
+    font-size: large;
+    margin-left: 35vw;
+    margin-top: 5vw;
+    color: #C6CA53 ;  
+}
+.copyright4{ /*This is for the copyright of the 4th page*/
+    font-family: 'DM Sans', sans-serif;
+       margin-top: 16vh;
+       font-size: small;
+       float: right;   
+   }
+.quantibutton{ /*This is for the button in the center of the 4th page and 41 page*/
+    border-radius: 25px;
+    background-color: #C9DCB3;
+    height: 6vw;
+    width: 10vw;
+    margin-left: 40vw;
+    margin-top: 5vw;
+    font-family: 'Archivo', sans-serif;
+
+}
+.quantibutton a{ /*This is for the link in the quantibutton*/
+    color: white;
+    font-family: 'Archivo', sans-serif;
+}
+.header{ /*This is for the yellow text under the title of the 4th page, 41 page, and 42 page*/
+    color: #C6CA53;
+    font-family: 'Archivo', sans-serif;
+    margin-left: 18vh;
+}
+.copyright5{ /*This is for the copyright of 42 page*/
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 35vh;
+    font-size: small;
+    float: right;}
+
+
+.titlef{ /*This is for the title text of the 5th page*/
+    color: #555358;
+    font-family: 'Archivo', sans-serif;
+    font-size: large;
+    margin-left: 74vw;
+    margin-top: 5vw;
+}
+.textf{ /*This is for the text of the 5th page*/
+    font-family:'DM Sans', sans-serif;
+   margin-left: 34vw;
+   margin-top: 1vw;
+   font-size: medium;
+   background-color: #C9DCB3;
+   border-radius: 25px;
+   height: 69vh;
+   padding: 1.5vw;
+   width: 52vw;
+}
+.textf h2{ /*This is for the reference text in the 5th page*/
+    color: #555358;
+    font-family: 'Archivo', sans-serif;
+}
+.bodypicc2{ /*This is for the photo beside the text in the 5th page*/
+    position: fixed;
+}
+.copyright6{ /*This is for the copyright of the 5th page*/
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 3vh;
+    font-size: small;
+    float: right;
+}
+.titleg{ /*This is for the title text of the 6th page*/
+    color: #7B7263;
+    font-family: 'Archivo', sans-serif;
+    font-size: large;
+    margin-left: 35vw;
+    margin-top: 5vw;
+}
+.textg{ /*This is for the text of the 6th page*/
+    font-family:'DM Sans', sans-serif;
+    margin-left: 24vw;
+    margin-top: 5vw;
+    font-size: medium;
+    position: fixed;
+    background-color: #7B7263;
+    border-radius: 25px;
+    position: fixed;
+    padding: 1.5vw;
+    width: 50vw;
+}
+.textg p{ /*This is for the paragraph of the 6th page*/
+    color: white;
+}
+.copyright7{ /*This is for the copyright of the 6th page*/
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 81vh;
+    font-size: small;
+    float: right;
+}
+.titleh{ /*This is for the title text of the 7th page*/
+    font-family: 'Archivo', sans-serif;
+    font-size: large;
+    margin-left: 35vw;
+    margin-top: 10vw;
+    color: #7B7263;
+}
+.copyright77{ /*This is for the copyright of the 7th page*/
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 38vh;
+    font-size: small;
+    float: right;}
+
+.name{ /*This is for the name in the 7th page*/
+    color: #5F6062;
+    font-family: 'Archivo', sans-serif;
+    margin-left: 10vw;
+    margin-top: 2vw;
+}
+.undername{ /*This is for the text below the name in the 7th page*/
+    font-family: 'Archivo', sans-serif;
+    margin-left: 10vw;
+}
